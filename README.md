@@ -1,16 +1,15 @@
 # Data blog webring
 
 Because it's the late '90s again and the small internet is cool.
-A simple widget that lets you put your site
+A simple widget that lets you put your site into a linked list of other sites. 
+Curated by humans. As was done when search engines were utter crap, like they are now.
 
-Code is 100% based off [Onionring](https://garlic.garden/onionring)
-
-Our webring id is `data-ring-dot-list`
+_Code is 100% based off [Onionring](https://garlic.garden/onionring)_
 
 # Joining the webring
 
-0. Make sure you fit the join criteria
-1. Submit a pull request to add your site to the list
+0. Make sure you fit the join criteria (below)
+1. Submit a pull request to add your site to the list, the managers will review and merge as appropriate
 2. Add the little JavaScript snippet in the Installation section to have it show up
 3. (Optional) The CSS is super basic. Feel free to locally override it.
 
