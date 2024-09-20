@@ -5,7 +5,7 @@
 // === ONIONRING-WIDGET ===
 //this file contains the code which builds the widget shown on each page in the ring. ctrl+f 'EDIT THIS' if you're looking to change the actual html of the widget
 
-var tag = document.getElementById(ringID); //find the widget on the page
+var tag = document.getElementById(data-ring-dot-list); //find the widget on the page
 
 thisSite = window.location.href; //get the url of the site we're currently on
 thisIndex = null;
