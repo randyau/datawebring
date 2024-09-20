@@ -9,6 +9,7 @@ var tag = document.getElementById(ringID); //find the widget on the page
 
 thisSite = window.location.href; //get the url of the site we're currently on
 thisIndex = null;
+shuffleWithSeed(sites, getDailySeed()) 
 
 // go through the site list to see if this site is on it and find its position
 for (i = 0; i < sites.length; i++) {
@@ -16,6 +17,35 @@ for (i = 0; i < sites.length; i++) {
     thisIndex = i;
     break; //when we've found the site, we don't need to search any more, so stop the loop
   }
+}
+
+// We want the site array to be shuffled once every day, but be consistent for that day
+function getDailySeed() { 
+  const today = new Date();
+  today.setHours(0, 0, 0, 0); // Set time to midnight
+  return today.getTime(); // Use timestamp as seed
+}
+
+function shuffleWithSeed(array, seed) {
+  // Simple seeded PRNG (not cryptographically secure)
+  function mulberry32(a) {
+    return function() {
+      let t = a += 0x6D2B79F5;
+      t = Math.imul(t ^ t >>> 15, t | 1);
+      t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+      return ((t ^ t >>> 14) >>> 0) / 4294967296;
+    }
+  }
+
+  const rng  = mulberry32(seed);
+
+  // Fisher-Yates shuffle algorithm
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+
+  return array;
 }
 
 function randomSite() {
