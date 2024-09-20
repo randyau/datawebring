@@ -47,6 +47,7 @@ Snippet to be placed on the web site to show the webring
 
 Add this to the `<head> ... </head>` section for basic styling. Feel free to locally override the settings.
 If you've got design and CSS skills (which Randy does not have), some help making a nicer CSS would be appreciated.
+The CSS mostly just lays out the elements and puts a light border. It should inheirit the host site's general background/font settings.
 
 
 ```
