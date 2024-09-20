@@ -13,7 +13,7 @@
 
 #data-ring-dot-list table {
     margin: 0 auto; /* centers the widget */
-    border: 2px solid; /* a bit of border */
+    border: 2px solid slategray; /* a bit of border */
     /*
     --bg-color: var(--main-bg-color);
     background-color: var(--bg-color);
