@@ -4,6 +4,10 @@ Because it's the late '90s again and the small internet is cool.
 A simple widget that lets you put your site into a linked list of other sites. 
 Curated by humans. As was done when search engines were utter crap, like they are now.
 
+Also, because it's the '90s, there's no intentional tracking in this. 
+Github hosts the files so all so no analytics there. 
+The JS is dirt simple and you can see all it does is some regex on the list of sites.
+
 _Code is 100% based off [Onionring](https://garlic.garden/onionring)_
 
 # Joining the webring
