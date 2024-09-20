@@ -25,7 +25,7 @@ This includes tools and tech, methods, academic studies and analyses, work proce
 
 # Where to add your site
 
-In [`onionring-variables.js`](https://github.com/randyau/datawebring/blob/main/onionring-variables.js), there is a variable `sites` at the top, just add your site to the list. That's it.
+In [`onionring-variables.js`](https://github.com/randyau/datawebring/blob/main/onionring-variables.js#L9), there is a variable `sites` at the top, just add your site to the list. That's it.
 
 Just submit a Pull Request with your update. If you have trouble please contact [Randy Au](https://bsky.app/profile/randyau.com)
 
