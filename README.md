@@ -49,7 +49,11 @@ If you've got design and CSS skills (which Randy does not have), some help makin
 <link rel="stylesheet" href="https://randyau.github.io/datawebring/onionring.css">
 ```
 
-## License
+# How's it work?
+
+The code is super duper simple. There's a list of sites in onionring-variables.js. When a widget is loaded it looks at the URL of the site it is on, and does simple regext to figure out if it is on the official list of sites. That lets it know where on the the browser is currently, and lets you walk the ring using the Next/Previous links. If the regex fails to find a match it shows an error message instead. That's it. Simple 90's tech.
+
+# License
 
 Quoted straight from Onionring's site on 2024-09-20:
 
