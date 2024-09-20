@@ -9,7 +9,7 @@ _Code is 100% based off [Onionring](https://garlic.garden/onionring)_
 # Joining the webring
 
 0. Make sure you fit the join criteria (below)
-1. Submit a pull request to add your site to the list, the managers will review and merge as appropriate
+1. Submit a pull request to `onionring-variables.js` (details below) to add your site to the list, the managers will review and merge as appropriate
 2. Add the little JavaScript snippet in the Installation section to have it show up
 3. (Optional) The CSS is super basic. Feel free to locally override it.
 
@@ -22,6 +22,12 @@ _Code is 100% based off [Onionring](https://garlic.garden/onionring)_
 
 * What counts as a "data related topic"? Something that people who work with data would find interesting.
 This includes tools and tech, methods, academic studies and analyses, work processes, experiences, tutorials, the job market, as well as meta discussions.
+
+# Where to add your site
+
+In `onionring-variables.js`, there is a variable `sites` at the top, just add your site to the list. That's it.
+
+Just submit a Pull Request with your update. If you have trouble please contact [Randy Au](https://bsky.app/profile/randyau.com)
 
 # Installation:
 
