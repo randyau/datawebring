@@ -6,31 +6,38 @@
 /* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
 
 #data-ring-dot-list {
-  margin: 0 auto;
-  padding: 15px; /* creates some space around the widget */
+    margin: 0 auto;
+    padding: 15px; /* creates some space around the widget */
 }
 
 #data-ring-dot-list table {
-  background-color: #ffffff; /* makes the background pure white */
-  margin: 0 auto; /* centers the widget */
+    margin: 0 auto; /* centers the widget */
+    --bg-color: var(--main-bg-color);
+    background-color: var(--bg-color);
 }
 
 #data-ring-dot-list table tr td {
-  padding: 15px; /* creates some space between the links and text inside the widget */
+    padding: 15px; /* creates some space between the links and text inside the widget */
 }
 
 #data-ring-dot-list .webring-prev {
-  text-align:right;
+    text-align: right;
 }
 
 #data-ring-dot-list .webring-info {
-   text-align:center;
+    text-align: center;
 }
 
-#data-ring-dot-list .webring-next {
-  text-align:left;
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main-bg-color: #121212;
+    }
 }
 
-#data-ring-dot-list .webring-links {
-  font-size:small;
+/* Light mode styles */
+@media (prefers-color-scheme: light) {
+    :root {
+        --main-bg-color: #ffffff;
+    }
 }
