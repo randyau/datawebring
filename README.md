@@ -15,10 +15,13 @@ _Code is 100% based off [Onionring](https://garlic.garden/onionring)_
 
 # Join Criteria
 
-1. You write about data related topics most of the time. (like, >= 66% of the time)
+1. You write about data related topics* most of the time. (like, >= 66% of the time)
 2. You create or curate your own content
 3. The content is not hateful, misleading, discriminatory, sexually explicit, or otherwise offends the sensibilities of the webring managers.
 4. Sites can be removed for any reason, with no warning or notice, at the discretion of the managers.
+
+* What counts as a "data related topic"? Something that people who work with data would find interesting.
+This includes tools and tech, methods, academic studies and analyses, work processes, experiences, tutorials, the job market, as well as meta discussions.
 
 # Installation:
 
