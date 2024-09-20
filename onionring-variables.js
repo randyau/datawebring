@@ -7,7 +7,7 @@
 
 //the full URLs of all the sites in the ring
 var sites = [
-'https;//www.randyau.com/',
+'https://www.randyau.com/',
 'https://vickiboykis.com/',
  
 'https://www.counting-stuff.com/'
