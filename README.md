@@ -51,7 +51,17 @@ If you've got design and CSS skills (which Randy does not have), some help makin
 
 # How's it work?
 
-The code is super duper simple. There's a list of sites in onionring-variables.js. When a widget is loaded it looks at the URL of the site it is on, and does simple regext to figure out if it is on the official list of sites. That lets it know where on the the browser is currently, and lets you walk the ring using the Next/Previous links. If the regex fails to find a match it shows an error message instead. That's it. Simple 90's tech.
+The code is super duper simple. There's a list of sites in onionring-variables.js. 
+When a widget is loaded it looks at the URL of the site it is on, and does simple regext to figure out if it is on the official list of sites.
+That lets it know where on the the browser is currently, and lets you walk the ring using the Next/Previous links. 
+If the regex fails to find a match it shows an error message instead. That's it. Simple 90's tech.
+
+## Daily Shuffling
+
+Traditionally, webrings acted like linked lists where for any given site, the next and previous sites were fixed. 
+Obviously this creates hotspots where a high traffic site would bias traffic towards its neighbors.
+To smooth things out, we've added a PRNG seeded to the date that shuffles the list in a consistent manner. 
+That way the hot spot should be smoother while still giving visitors a consistent browsing experience.
 
 # License
 
