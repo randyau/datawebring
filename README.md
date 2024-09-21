@@ -2,11 +2,12 @@
 
 Because it's the late '90s again and the small internet is cool.
 A simple widget that lets you put your site into a linked list of other sites. 
-Curated by humans. As was done when search engines were utter crap, like they are now.
+The list is curated by humans, as was done when search engines were crap, like they are now.
+It is a simple way for sites about a shared topic, data work in this case, can share some traffic with each other.
 
-Also, because it's the '90s, there's no intentional tracking in this. 
+Also, because it's the '90s, there's no intentional tracking code in this. 
 Github hosts the files so no analytics are available to managers. 
-The JS is dirt simple and you can see all it does is some regex on the list of sites.
+The JS is dirt simple and you can see all it does is some regex on the list of sites and make links.
 
 _Code is 100% based off [Onionring](https://garlic.garden/onionring)_
 
@@ -27,15 +28,16 @@ _Code is 100% based off [Onionring](https://garlic.garden/onionring)_
 * What counts as a "data related topic"? Something that people who work with data would find interesting.
 This includes tools and tech, methods, academic studies and analyses, work processes, experiences, tutorials, the job market, as well as meta discussions.
 
-# Where to add your site
+# Adding your site to the code
 
 In [`onionring-variables.js`](https://github.com/randyau/datawebring/blob/main/onionring-variables.js#L9), there is a variable `sites` at the top, just add your site to the list. That's it.
 
-Just submit a Pull Request with your update. If you have trouble please contact [Randy Au](https://bsky.app/profile/randyau.com)
+Just submit a Pull Request with your site information. 
+If you have trouble or don't know how to do it, please contact [Randy Au](https://bsky.app/profile/randyau.com) on BlueSky.
 
 # Installation of the widget
 
-Place this snippet in your HTML body where you want the widget box to appear. 
+Place this snippet in your HTML body where you want the widget box to appear. That's it.
 
 ```
 <div id='data-ring-dot-list'>
@@ -59,9 +61,9 @@ The CSS mostly just lays out the elements and puts a light border. It should inh
 
 # How's it work?
 
-The code is super duper simple. There's a list of sites in onionring-variables.js. 
-When a widget is loaded it looks at the URL of the site it is on, and does simple regext to figure out if it is on the official list of sites.
-That lets it know where in the ordered list the browser is currently, and lets you walk the ring using the Next/Previous links. 
+There's a list of sites in `onionring-variables.js`.
+When a widget is loaded it looks at the URL of the site it is on and does simple regexp to figure out if it is on the official list of sites.
+That lets it know where in the ordered list the browser is currently, and lets users walk the ring using the Next/Previous links. 
 If the regex fails to find a match it shows an error message instead. That's it. Simple 90's tech.
 
 ## Daily Shuffling
