@@ -15,7 +15,7 @@ _Code is 100% based off [Onionring](https://garlic.garden/onionring)_
 
 0. Make sure you fit the join criteria (below)
 1. Submit a pull request to `onionring-variables.js` (details below) to add your site to the list, the managers will review and merge as appropriate
-2. Add the little JavaScript snippet in the Installation section to have it show up
+2. Copy/paste the little HTML code snippet in the Installation section to have the widget show up
 3. (Optional) The CSS is super basic. Feel free to locally override it.
 
 # Join Criteria
@@ -38,6 +38,7 @@ If you have trouble or don't know how to do it, please contact [Randy Au](https:
 # Installation of the widget
 
 Place this snippet in your HTML body where you want the widget box to appear. That's it.
+There's no need to edit or make changes.
 
 ```
 <div id='data-ring-dot-list'>
