@@ -3,7 +3,7 @@
 Because it's the late '90s again and the small internet is cool.
 A simple widget that lets you put your site into a linked list of other sites. 
 The list is curated by humans, as was done when search engines were crap, like they are now.
-It is a simple way for sites about a shared topic, data work in this case, can share some traffic with each other.
+It is a simple way for sites about a shared topic, data work in this case, to share some traffic with each other.
 
 Also, because it's the '90s, there's no intentional tracking code in this. 
 Github hosts the files so no analytics are available to managers. 
