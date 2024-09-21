@@ -10,6 +10,7 @@ var sites = [
 'https://www.randyau.com/',
 'https://vickiboykis.com/',
 'https://www.counting-stuff.com/',
+'https://gecky.me/',
 ];
 
 //the name of the ring
