@@ -1,4 +1,4 @@
-# Data blog webring
+# Data People Writing Stuff Webring
 
 Because it's the late '90s again and the small internet is cool.
 A simple widget that lets you put your site into a linked list of other sites. 
@@ -33,15 +33,18 @@ In [`onionring-variables.js`](https://github.com/randyau/datawebring/blob/main/o
 
 Just submit a Pull Request with your update. If you have trouble please contact [Randy Au](https://bsky.app/profile/randyau.com)
 
-# Installation:
+# Installation of the widget
 
-Snippet to be placed on the web site to show the webring
+Place this snippet in your HTML body where you want the widget box to appear. 
+
 ```
 <div id='data-ring-dot-list'>
 <script type="text/javascript" src="https://randyau.github.io/datawebring/onionring-variables.js"></script>
 <script type="text/javascript" src="https://randyau.github.io/datawebring/onionring-widget.js"></script>
 </div>
 ```
+
+You may **optionally** put the CSS into your HTML head section to format the widget.
 
 ## Styling
 
@@ -58,15 +61,15 @@ The CSS mostly just lays out the elements and puts a light border. It should inh
 
 The code is super duper simple. There's a list of sites in onionring-variables.js. 
 When a widget is loaded it looks at the URL of the site it is on, and does simple regext to figure out if it is on the official list of sites.
-That lets it know where on the the browser is currently, and lets you walk the ring using the Next/Previous links. 
+That lets it know where in the ordered list the browser is currently, and lets you walk the ring using the Next/Previous links. 
 If the regex fails to find a match it shows an error message instead. That's it. Simple 90's tech.
 
 ## Daily Shuffling
 
-Traditionally, webrings acted like linked lists where for any given site, the next and previous sites were fixed. 
+Traditionally, webrings acted like linked lists where for any given site, the next and previous sites were fixed.
 Obviously this creates hotspots where a high traffic site would bias traffic towards its neighbors.
 To smooth things out, we've added a PRNG seeded to the date that shuffles the list in a consistent manner. 
-That way the hot spot should be smoother while still giving visitors a consistent browsing experience.
+That way the hot spots should be smooth over time while still giving visitors a consistent browsing experience.
 
 # License
 
