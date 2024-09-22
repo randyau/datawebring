@@ -42,7 +42,7 @@ If you have trouble or don't know how to do it, please contact [Randy Au](https:
 
 # Installation of the widget
 
-Place this snippet in your HTML body where you want the widget box to appear. That's it.
+Place this snippet in your HTML body where you want the widget box to appear.
 There's no need to edit or make changes.
 
 The widget requires that your site be on the list of sites (based off URL pattern matching) before it displays correctly.
@@ -80,7 +80,7 @@ If the regex fails to find a match it shows an error message instead. That's it.
 Traditionally, webrings acted like linked lists where for any given site, the next and previous sites were fixed.
 Obviously this creates hotspots where a high traffic site would bias traffic towards its neighbors.
 To smooth things out, we've added a PRNG seeded to the date that shuffles the list in a consistent manner. 
-That way the hot spots should be smooth over time while still giving visitors a consistent browsing experience.
+That way the hot spots should be smooth over time while still giving visitors a consistent browsing experience that let's them walk the entire ring.
 
 # License
 
