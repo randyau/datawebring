@@ -11,6 +11,7 @@ var sites = [
 'https://vickiboykis.com/',
 'https://www.counting-stuff.com/',
 'https://gecky.me/',
+'https://qethanm.cc/datawebring/',
 ];
 
 //the name of the ring
