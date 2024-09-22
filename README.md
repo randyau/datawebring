@@ -9,7 +9,7 @@ Also, because it's the '90s, there's no intentional tracking code in this.
 Github hosts the files so no analytics are available to managers. 
 The JS is dirt simple and you can see all it does is some regex on the list of sites and make links.
 
-_Code is 100% based off [Onionring](https://garlic.garden/onionring)_
+_Based off [Onionring](https://garlic.garden/onionring)_
 
 # Joining the webring
 
@@ -26,7 +26,7 @@ In general, we welcome all relevant sites, big or small. So long as it contribut
 2. You create your own content or meaningfully curate the work of others
 3. The content is not hateful, misleading, discriminatory, sexually explicit, illegal in the USA, or otherwise offends the sensibilities of the webring managers.
 4. Sites can be removed for any reason, with no warning or notice, at the discretion of the managers.
-5. There is NO requirement you have to post at any regular pace. Having static evergreen useful content is also fine!
+5. There is NO requirement you have to post at any regular pace. Having static, evergreen, useful content is also fine!
 6. There is NO limitation on how many sites a person can submit, so long as they are distinct from each other.
 
 * What counts as a "data related topic"? Something that people who work with data would find interesting.
@@ -34,7 +34,8 @@ This includes tools and tech, methods, academic studies and analyses, work proce
 
 # Adding your site to the code
 
-In [`onionring-variables.js`](https://github.com/randyau/datawebring/blob/main/onionring-variables.js#L9), there is a variable `sites` at the top, just add your site to the list. That's it.
+In [`onionring-variables.js`](https://github.com/randyau/datawebring/blob/main/onionring-variables.js#L9), 
+there is a variable `sites` at the top, just add your site to the list. That's it.
 
 Just submit a Pull Request with your site information. 
 If you have trouble or don't know how to do it, please contact [Randy Au](https://bsky.app/profile/randyau.com) on BlueSky.
@@ -44,6 +45,9 @@ If you have trouble or don't know how to do it, please contact [Randy Au](https:
 Place this snippet in your HTML body where you want the widget box to appear. That's it.
 There's no need to edit or make changes.
 
+The widget requires that your site be on the list of sites (based off URL pattern matching) before it displays correctly.
+If your domain or a subdirectory is on the list, the widget should work for any subdirectory under that entry.
+
 ```
 <div id='data-ring-dot-list'>
 <script type="text/javascript" src="https://randyau.github.io/datawebring/onionring-variables.js"></script>
@@ -51,9 +55,9 @@ There's no need to edit or make changes.
 </div>
 ```
 
-You may **optionally** put the CSS into your HTML head section to format the widget.
-
 ## Styling
+
+You may **optionally** put the CSS into your HTML head section to format the widget. It works fine without it.
 
 Add this to the `<head> ... </head>` section for basic styling. Feel free to locally override the settings.
 If you've got design and CSS skills (which Randy does not have), some help making a nicer CSS would be appreciated.
