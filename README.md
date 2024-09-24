@@ -24,13 +24,13 @@ In general, we welcome all relevant sites, big or small. So long as it contribut
 
 1. You write about data related topics* most of the time. (like, ~66% of the time or more)
 2. You create your own content or meaningfully curate the work of others
-3. The content is not hateful, misleading, discriminatory, sexually explicit, illegal in the USA, or otherwise offends the sensibilities of the webring managers.
+3. The content is not spam, hateful, misleading, discriminatory, sexually explicit, illegal in the USA, or otherwise offends the sensibilities of the webring managers.
 4. Sites can be removed for any reason, with no warning or notice, at the discretion of the managers.
-5. There is NO requirement you have to post at any regular pace. Having static, evergreen, useful content is also fine!
-6. There is NO limitation on how many sites a person can submit, so long as they are distinct from each other.
+5. There is NO requirement you have to post at any regular pace. Having static, evergreen, useful content is also fine! (e.g. a web-version of a book)
+6. There is NO limitation on how many sites a person can submit, so long as they are distinct sites.
 
 * What counts as a "data related topic"? Something that people who work with data would find interesting.
-This includes tools and tech, methods, academic studies and analyses, work processes, experiences, stories, tutorials, the job market, as well as meta discussions, memes, jokes.
+This includes tools and tech, methods, academic studies and analyses, work processes, experiences, stories, tutorials, the job market, as well as meta discussions, memes, jokes. We take a broad interpretation.
 
 # Adding your site to the code
 
