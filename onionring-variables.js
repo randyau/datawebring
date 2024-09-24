@@ -13,6 +13,7 @@ var sites = [
 'https://gecky.me/',
 'https://qethanm.cc/datawebring/',
 'https://mlops.systems/',
+'https://brandonrohrer.com/',
 ];
 
 //the name of the ring
