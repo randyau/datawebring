@@ -12,6 +12,7 @@ var sites = [
 'https://www.counting-stuff.com/',
 'https://gecky.me/',
 'https://qethanm.cc/datawebring/',
+'https://mlops.systems/',
 ];
 
 //the name of the ring
