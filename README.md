@@ -30,22 +30,25 @@ In general, we welcome all relevant sites, big or small. So long as it contribut
 6. There is NO limitation on how many sites a person can submit, so long as they are distinct from each other.
 
 * What counts as a "data related topic"? Something that people who work with data would find interesting.
-This includes tools and tech, methods, academic studies and analyses, work processes, experiences, tutorials, the job market, as well as meta discussions.
+This includes tools and tech, methods, academic studies and analyses, work processes, experiences, stories, tutorials, the job market, as well as meta discussions, memes, jokes.
 
 # Adding your site to the code
 
 In [`onionring-variables.js`](https://github.com/randyau/datawebring/blob/main/onionring-variables.js#L9), 
 there is a variable `sites` at the top, just add your site to the list. That's it.
 
-Just submit a Pull Request with your site information. 
+Then just submit a Pull Request with your site information. 
 If you have trouble or don't know how to do it, please contact [Randy Au](https://bsky.app/profile/randyau.com) on BlueSky.
+
+Once the PR is merged and GitHub Pages builds and updates the CDN, the widget on your site should be able to find its URL and know where it is in the ring.
 
 # Installation of the widget
 
 Place this snippet in your HTML body where you want the widget box to appear.
 There's no need to edit or make changes.
 
-The widget requires that your site be on the list of sites (based off URL pattern matching) before it displays correctly.
+The widget requires that your site be on the list of sites (based off URL pattern matching) before it displays correctly. 
+Otherwise it displays text saying it hasn't been included in the webring yet.
 If your domain or a subdirectory is on the list, the widget should work for any subdirectory under that entry.
 
 ```
@@ -59,7 +62,7 @@ If your domain or a subdirectory is on the list, the widget should work for any 
 
 You may **optionally** put the CSS into your HTML head section to format the widget. It works fine without it.
 
-Add this to the `<head> ... </head>` section for basic styling. Feel free to locally override the settings.
+Add this to the `<head> ... </head>` section for basic styling. Feel free to locally override the settings to suit your own taste.
 If you've got design and CSS skills (which Randy does not have), some help making a nicer CSS would be appreciated.
 The CSS mostly just lays out the elements and puts a light border. It should inheirit the host site's general background/font settings.
 
@@ -77,7 +80,7 @@ If the regex fails to find a match it shows an error message instead. That's it.
 
 ## Daily Shuffling
 
-Traditionally, webrings acted like linked lists where for any given site, the next and previous sites were fixed.
+Traditionally, webrings acted like static linked lists where for any given site, the next and previous sites were fixed.
 Obviously this creates hotspots where a high traffic site would bias traffic towards its neighbors.
 To smooth things out, we've added a PRNG seeded to the date that shuffles the list in a consistent manner. 
 That way the hot spots should be smooth over time while still giving visitors a consistent browsing experience that let's them walk the entire ring.
