@@ -14,6 +14,7 @@ var sites = [
 'https://qethanm.cc/datawebring/',
 'https://mlops.systems/',
 'https://brandonrohrer.com/',
+'https://blog.harterrt.com/',
 ];
 
 //the name of the ring
