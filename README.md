@@ -22,7 +22,7 @@ _Based off [Onionring](https://garlic.garden/onionring)_
 
 In general, we welcome all relevant sites, big or small. So long as it contributes even the slightest value to the data community.
 
-1. You write about data related topics* most of the time. (like, ~66% of the time or more)
+1. You write about data related topics* most of the time. (like, ~66% of the time or more, OR there's a clear section of/way to find data related material)
 2. You create your own content or meaningfully curate the work of others
 3. The content is not spam, hateful, misleading, discriminatory, sexually explicit, illegal in the USA, or otherwise offends the sensibilities of the webring managers.
 4. Sites can be removed for any reason, with no warning or notice, at the discretion of the managers.
