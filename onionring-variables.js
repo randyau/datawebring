@@ -15,6 +15,7 @@ var sites = [
 'https://mlops.systems/',
 'https://brandonrohrer.com/',
 'https://blog.harterrt.com/',
+'https://www.jessemostipak.com/',
 ];
 
 //the name of the ring
