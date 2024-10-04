@@ -7,15 +7,16 @@
 
 //the full URLs of all the sites in the ring
 var sites = [
-'https://www.randyau.com/',
-'https://vickiboykis.com/',
-'https://www.counting-stuff.com/',
-'https://gecky.me/',
-'https://qethanm.cc/datawebring/',
-'https://mlops.systems/',
-'https://brandonrohrer.com/',
-'https://blog.harterrt.com/',
-'https://www.jessemostipak.com/',
+    'https://www.randyau.com/',
+    'https://vickiboykis.com/',
+    'https://www.counting-stuff.com/',
+    'https://gecky.me/',
+    'https://qethanm.cc/datawebring/',
+    'https://mlops.systems/',
+    'https://brandonrohrer.com/',
+    'https://blog.harterrt.com/',
+    'https://www.jessemostipak.com/',
+    'https://elliotgunn.github.io/',
 ];
 
 //the name of the ring
