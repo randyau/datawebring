@@ -13,7 +13,7 @@ var sites = [
     'https://gecky.me/',
     'https://qethanm.cc/datawebring/',
     'https://mlops.systems/',
-    'https://brandonrohrer.com/',
+    'https://e2eml.school/',
     'https://blog.harterrt.com/',
     'https://www.jessemostipak.com/',
     'https://elliotgunn.github.io/',
