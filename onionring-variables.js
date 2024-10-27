@@ -18,6 +18,7 @@ var sites = [
     'https://www.jessemostipak.com/',
     'https://elliotgunn.github.io/',
     'https://radbrt.com',
+    'https://simon.podhajsky.net/blog/',
 ];
 
 //the name of the ring
