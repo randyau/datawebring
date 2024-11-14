@@ -19,6 +19,7 @@ var sites = [
     'https://elliotgunn.github.io/',
     'https://radbrt.com',
     'https://simon.podhajsky.net/blog/',
+    'https://emilyriederer.com/'
 ];
 
 //the name of the ring
