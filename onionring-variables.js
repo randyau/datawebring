@@ -20,7 +20,8 @@ var sites = [
     'https://radbrt.com',
     'https://simon.podhajsky.net/blog/',
     'https://www.heltweg.org/',
-    'https://emilyriederer.com/'
+    'https://emilyriederer.com/',
+    'https://kylestratis.com'
 ];
 
 //the name of the ring
