@@ -21,7 +21,8 @@ var sites = [
     'https://simon.podhajsky.net/blog/',
     'https://www.heltweg.org/',
     'https://emilyriederer.com/',
-    'https://kylestratis.com'
+    'https://kylestratis.com',
+    'https://yanirseroussi.com/',
 ];
 
 //the name of the ring
