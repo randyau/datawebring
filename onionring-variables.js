@@ -23,6 +23,7 @@ var sites = [
     'https://emilyriederer.com/',
     'https://kylestratis.com',
     'https://yanirseroussi.com/',
+    'https://www.eamoncaddigan.net/'
 ];
 
 //the name of the ring
