@@ -23,7 +23,7 @@ var sites = [
     'https://emilyriederer.com/',
     'https://kylestratis.com',
     'https://yanirseroussi.com/',
-    'https://www.eamoncaddigan.net/'
+    'https://www.eamoncaddigan.net/',
     'https://karnwong.me/'
 ];
 
