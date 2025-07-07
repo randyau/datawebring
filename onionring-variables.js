@@ -25,7 +25,8 @@ var sites = [
     'https://yanirseroussi.com/',
     'https://www.eamoncaddigan.net/',
     'https://karnwong.me/',
-    'https://aino-spring.com/'
+    'https://aino-spring.com/',
+    'https://nycdata.substack.com/'
 ];
 
 //the name of the ring
